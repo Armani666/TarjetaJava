@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script type="text/javascript" src="../js/efectos.js"></script>
+    <title>Tarjetas JavaScript</title>
+</head>
+<body>
+
+    <header>
+        <h1>¡¡HOLA, BIENVENIDO,CREA TU PROPIA FELICITACION!!</h1>
+    </header>
+
+    
+        <h1>Escriba su información</h1>
+    
+    <section>
+
+        <article id="tema" class="contenedor">
+            <h3>Elige un tema</h3>
+            <input type="radio" name="opcion" value="sv" >San valentin
+            <input type="radio" name="opcion" value="fc" >Feliz cumpleanos
+            <input type="radio" name="opcion" value="mt" >Motivacion
+        </article>
+
+        <article id="Imagen" class="contenedor">
+            <h3>Elige una imagen</h3>
+                <div class="love">
+                    <img src="../img/amor.svg" alt="">
+                    <input type="radio" name="Ab" value="sb" >San valentin
+                </div>
+s
+                <div class="cumpl">
+                    <img src="../img/cumpleanos.svg" alt="" >
+                    <input type="radio" name="Ab" value="fk"  >Feliz cumpleanos
+                </div>
+
+                <div class="motivat">
+                    <img src="../img/moti.svg" alt="">
+                    <input type="radio" name="Ab" value="wt" >Motivacion
+                </div>         
+           
+        </article>
+
+        <article id="mensaje" class="contenedor">
+            <h3>Titulo</h3>
+            <div class="todo">
+                <div class="mensajec">
+                    <input type="text" id="titulon" placeholder="Capture un Titulo">
+                    <input type="text" id="subtitulon" placeholder="Capture un Subtitulo">
+                    <input type="text" id="nombreson" placeholder="Capture el nombre de la persona">
+                </div>
+
+                <div class="mensaje69">
+                    <input type="text" id="mensajon" placeholder="Capture el cuerpo del mensaje">
+                </div> 
+                
+            </div>
+        </article>
+
+        <article id="color" class="contenedor"> 
+            <h3>Color</h3>
+
+            <div class="Nrj">
+                <img src="../img/naranja.svg" alt="">
+                <input type="radio" name="Sc" value="Nrj">Naranja
+            </div>
+
+            <div class="Mrd">
+                <img src="../img/morado.svg" alt="">
+                <input type="radio" name="Sc" value="Mrd">Morado
+            </div>
+
+            <div class="Rj0">
+                <img src="../img/rojo.svg" alt="">
+                <input type="radio" name="Sc" value="Rj0">Rojo
+            </div>
+        </article>
+
+        <article class="gen">
+            <input type="button" value="Generar" onclick="generar()">
+        </article>
+
+        <article id="resul">
+            <img src="" alt="" id="temple">
+            <h2 id="primero"></h2>
+            <h1 id="segundo"></h1>
+            <h3 id="tercero"></h3>
+            <p id="textolong"></p>
+            <img src="" alt="" id="imagen">
+        </article>
+
+
+
+    </section>
+    
+</body>
+</html>
